@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# React-BoilerPlate
+🚀 Supercharge your React projects with React-Boilerplate-Advanced! This meticulously crafted boilerplate comes with a robust setup including ESLint and Prettier for code quality, Material-UI for stunning UI components, and preconfigured environment settings. Get a head start on your next React endeavor and build with confidence!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React-Boilerplate-Advanced
+![image](https://github.com/sarojghalan/React-BoilerPlate/assets/88360959/d8972b73-1073-4277-9eac-5aea106b5a1f)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 📦 Advanced setup for kickstarting React projects.
+- ✅ ESLint and Prettier configurations for consistent code quality.
+- 🎨 Material-UI integration for sleek and responsive UI components.
+- ⚙️ Preconfigured environment settings for a seamless development experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+Follow these steps to get your project up and running:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. **Clone the repository:**
+   git clone https://github.com/sarojghalan/React-BoilerPlate.git
+   cd React-BoilerPlate
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **install all the required packages**
+   npm install
+  
+3. **run**
+   npm run dev
