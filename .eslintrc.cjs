@@ -15,5 +15,10 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
+    "react/jsx-no-undef": "error",
+    "react/no-unused-state": "warn",
+    "react/prop-types": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
   },
 };
