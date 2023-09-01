@@ -1,14 +1,22 @@
   import axios from "axios";
 
-  console.log(import.meta.env.VITE_BASE_URL);
   //creating instance of axiosds
   const Service = axios?.create({
     baseURL: "http://localhost:5555",
   });
-  console.log(Service);
+
+
   // Adding a request interceptor
   Service.interceptors.request.use(
     function (config) {
+      const token:string ="adsgfdsfasdfasdfasdfsadf";
+      if (token) {
+        // If the token is available, add it to the request headers
+        config.headers.Authorization = `Bearer ${token}`;
+      } else {
+        // If the token is not available, throw an error
+       console.log("token is not available.")
+      }
       // Do something before request is sent
       return config;
     },
